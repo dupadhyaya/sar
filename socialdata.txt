@@ -1,0 +1,8 @@
+"id"	"weight"	"gender"	"smoking"	"tumour"
+"1"	1	10	"male"	"no"	"small"
+"2"	2	20	"female"	"yes"	"large"
+"3"	3	24	"female"	"no"	"medium"
+"4"	4	22	"male"	"yes"	"large"
+"5"	5	23	"male"	"yes"	"medium"
+"6"	6	25	"female"	"no"	"large"
+"7"	7	28	"male"	"yes"	"small"
