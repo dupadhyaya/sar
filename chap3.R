@@ -11,7 +11,7 @@ class(weight)
 mydata[1:3,]
 head(mydata, n=10)
 tail(mydata, n=3)
-write.table(mydata, 'socialdata.txt', sep='\t')
+#write.table(mydata, 'socialdata.txt', sep='\t')
 
 
 #3.3  Renaming Variables ----
@@ -53,7 +53,7 @@ socialdata = data.frame(ID, Gender, Age, Weight,
 #ID; Gender ; Age ; Weight ;Height;
 #Cholestrol ;Income
 socialdata
-save(socialdata, file='sar.RData')
+save(mydata, socialdata, file='sar.RData')
 rm(list=ls())
 load('sar.RData')
 mydata
