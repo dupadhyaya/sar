@@ -58,3 +58,5 @@ rm(list=ls())
 load('sar.RData')
 mydata
 socialdata
+
+socialdata[,1]
